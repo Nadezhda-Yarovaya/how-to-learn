@@ -1,5 +1,5 @@
 :root {
-  --bg-main: #f2f2f2;
+  --bg-main-: #f2f2f2;
   --bg-dark-theme-: #1f1f1f;
   --accent-bl-: #2f80ed;
   --text-main-: #000;
@@ -22,7 +22,7 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  background-color: var(--bg-main);
+  background-color: var(--bg-main-);
   width: 100%;
   display: flex;
   margin: 0;
@@ -51,7 +51,6 @@
   font-weight: 600;
   margin: 0 0 0 64px;
   width: 730px;
-  z-index: 3;
   align-self: center;
   z-index: 2;
 }
