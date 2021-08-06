@@ -1,0 +1,9 @@
+.cards {
+  width: 920px;
+  padding: 0;
+  /*outline: 2px solid rgb(131, 119, 119);*/
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

@@ -1,0 +1,158 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e0a8921..2b82602 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -14,12 +14,12 @@[m
+         <h1 class="header__title">Научиться Учиться</h1>[m
+         <p class="header__subtitle">[m
+           Какие современные и эффективные подходы к обучению вы можете[m
+[31m-          использовать в своей жизни? <a class="header__link">Узнать--></a>[m
+[32m+[m[32m          использовать в своей жизни? <a class="header__link">Узнать&rarr;</a>[m
+         </p>[m
+         <img[m
+           class="header__main-illustration"[m
+           src="./images/header-image.png"[m
+[31m-          alt="header image left"[m
+[32m+[m[32m          alt="изображение шапки - главная иллюстрация"[m
+           width="765"[m
+           height="608"[m
+         />[m
+[36m@@ -38,8 +38,7 @@[m
+                 но часто в итоге это не дает нам реального знания. Зубрежка[m
+                 быстро выветривается и не приносит пользы.[m
+               </p>[m
+[31m-              <p[m
+[31m-                class="two-columns__paragraph two-columns__paragraph_padding_both">[m
+[32m+[m[32m              <p class="two-columns__paragraph">[m
+                 <span class="two-columns__span-accent">Вывод: </span> учиться[m
+                 тоже нужно уметь, но почему-то этому мало где учат. Что с этим[m
+                 делать?[m
+[36m@@ -55,160 +54,149 @@[m
+ [m
+         <section class="digits">[m
+           <h2 class="section-title">Цифры и факты</h2>[m
+[31m-          <h3 class="section-subtitle">Про учёбу и мозг</h3>[m
+[32m+[m[32m          <p class="section-subtitle">Про учёбу и мозг</p>[m
+ [m
+[31m-          <div class="table">[m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m          <ul class="table">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">86 миллиардов</h3>[m
+               <p class="table__text">Число нейронов в мозге человека</p>[m
+[31m-            </div>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">2.1 миллиарда</h3>[m
+               <p class="table__text">[m
+[31m-                Число нуждающихся в повышении квалификации<br /><span[m
+[31m-                  class="table__span"[m
+[31m-                >[m
+[31m-                  Всемирный Банк, 2017</span[m
+[31m-                >[m
+[32m+[m[32m                Число нуждающихся в повышении квалификации[m
+               </p>[m
+[31m-            </div>[m
+[32m+[m[32m              <p class="table__text">Всемирный Банк, 2017</p>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">1000 терабайт</h3>[m
+               <p class="table__text">Объём памяти человека</p>[m
+[31m-            </div>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">500 триллионов</h3>[m
+               <p class="table__text">[m
+                 Число ответственных за обучение нервных синапсов у взрослого[m
+                 человека[m
+               </p>[m
+[31m-            </div>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">420 миллионов</h3>[m
+               <p class="table__text">[m
+                 Число взрослых людей моложе 25 лет, не имеющих образования для[m
+[31m-                трудоустройства<span class="table__span">[m
+[31m-                  Всемирный Банк, 2017</span[m
+[31m-                >[m
+[32m+[m[32m                трудоустройства[m
+               </p>[m
+[31m-            </div>[m
+[32m+[m[32m              <p class="table__text">Всемирный Банк, 2017</p>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">17–20 лет</h3>[m
+               <p class="table__text">Пик обучаемости</p>[m
+[31m-            </div>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">1885 год</h3>[m
+               <p class="table__text">Открытие кривой забывания</p>[m
+[31m-            </div>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell">[m
+[32m+[m[32m            <li class="table__cell">[m
+               <h3 class="table__heading">1889 год</h3>[m
+               <p class="table__text">Открытие условного рефлекса</p>[m
+[31m-            </div>[m
+[31m-          </div>[m
+[32m+[m[32m            </li>[m
+[32m+[m[32m          </ul>[m
+           <!-- close table div-->[m
+         </section>[m
+ [m
+         <section class="feynman">[m
+           <h2 class="feynman__title">Метод Фейнмана</h2>[m
+[31m-          <h3 class="feynman__subtitle">Выучить и не забыть</h3>[m
+[31m-          <a href="#" class="feynman__link">Подробнее --></a>[m
+[32m+[m[32m          <p class="feynman__subtitle">Выучить и не забыть</p>[m
+[32m+[m[32m          <a href="#" class="feynman__link">Подробнее &rarr;</a>[m
+         </section>[m
+ [m
+         <section class="kaufman">[m
+           <h2 class="section-title section-title_theme_dark">[m
+             Принципы обучения[m
+           </h2>[m
+[31m-          <h3 class="section-subtitle section-subtitle_theme_dark">[m
+[32m+[m[32m          <p class="section-subtitle section-subtitle_theme_dark">[m
+             от Джоша Кауфмана[m
+[31m-          </h3>[m
+[32m+[m[32m          </p>[m
+ [m
+[31m-          <div class="table table_theme_dark">[m
+[31m-            <div class="table__cell table__cell_theme_dark">[m
+[32m+[m[32m          <ul class="table table_theme_dark">[m
+[32m+[m[32m            <li class="table__cell table__cell_theme_dark">[m
+               <h3 class="table__heading table__heading_theme_dark">1</h3>[m
+               <p class="table__text table__text_theme_dark">[m
+                 Выберите привлекательный проект.[m
+               </p>[m
+[31m-            </div>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell table__cell_theme_dark">[m
+[32m+[m[32m            <li class="table__cell table__cell_theme_dark">[m
+               <h3 class="table__heading table__heading_theme_dark">2</h3>[m
+               <p class="table__text table__text_theme_dark">[m
+                 Сосредоточьтесь на каком-то одном навыке.[m
+               </p>[m
+[31m-            </div>[m
+[32m+[m[32m            </li>[m
+ [m
+[31m-            <div class="table__cell table__cell_theme_dark">[m
+[32m+[m[32m            <li class="table__cell table__cell_theme_dark">[m
+               <h3 class="table__heading table__heading_theme_dark">3</h3>[m
+               <p class="table__text table__te

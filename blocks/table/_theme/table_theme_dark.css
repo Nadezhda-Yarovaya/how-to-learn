@@ -1,0 +1,9 @@
+
+.table_theme_dark {
+  position: relative;
+  margin-top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}

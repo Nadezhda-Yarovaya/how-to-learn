@@ -1,0 +1,8 @@
+
+/*both for header and footer */
+.logo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 183px;
+  height: 32px;
+}
