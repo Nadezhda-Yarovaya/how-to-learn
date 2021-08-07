@@ -2,12 +2,9 @@
   color: #2f80ed;
   text-decoration: none;
   font-size: 18px;
-  transition: opacity .9s ease;
-
+  transition: opacity 0.9s ease;
 }
 
 .header__link:hover {
-  text-decoration: underline;
   opacity: 50%;
-
 }
