@@ -12,6 +12,6 @@ _Используемые технологии:_
 2. Nested БЭМ
 3. видео через iframe
 4. Flex блоки
-
-**GH pages **
+\
+_GH pages_
 https://nadezhda-yarovaya.github.io/how-to-learn/
