@@ -13,5 +13,7 @@ _Используемые технологии:_
 3. видео через iframe
 4. Flex блоки
 \
+\
+\
 _GH pages_
 https://nadezhda-yarovaya.github.io/how-to-learn/
