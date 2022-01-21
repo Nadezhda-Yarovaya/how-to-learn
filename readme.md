@@ -21,4 +21,5 @@ _GH pages_
 https://nadezhda-yarovaya.github.io/how-to-learn/
 
 ***Инструкция по развёртыванию и системные требования***
+\
 html5, css 2.1
